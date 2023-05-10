@@ -27,6 +27,19 @@ header {
   margin: 30px auto;
   width: 350px;
 }
+.btn-eur {
+  cursor: pointer;
+    background-color: #0366D6;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    color: #fff;
+    border: 0;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 30px;
+    padding: 10px;
+    width: 100%;
+}
 h1 {
   letter-spacing: 1px;
   margin: 0;
@@ -96,6 +109,14 @@ h4 {
   .btn:focus,
   .delete-btn:focus {
     outline: 0;
+  }
+  #currency {
+    padding: 5px;
+    border: 1px solid #dedede;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 5px;
   }
   .list {
     list-style-type: none;
