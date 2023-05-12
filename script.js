@@ -117,7 +117,7 @@ function init() {
 init();
 form.addEventListener('submit', addTransaction);
 
-// Funkcja aktualizująca wartości przychodów i wydatków po zmianie waluty
+// A function that updates the values of income and expenses
 function updateCurrency() {
   const selectedCurrency = currency.value;
   if (selectedCurrency === 'EUR') {
