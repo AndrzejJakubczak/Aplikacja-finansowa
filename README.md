@@ -1,1 +1,1 @@
-# Aplikacja_finansowa
+# FinanSync
