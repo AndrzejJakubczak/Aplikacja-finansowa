@@ -2,7 +2,7 @@
 
 Budget app.
 
-See it live on Github Pages:
+See it live:
 
 http://finansync.pl
 
