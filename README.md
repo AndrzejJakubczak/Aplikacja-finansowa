@@ -1,15 +1,16 @@
-# FinanSync    
+# FinanSync 
+
 Budget app.
 
 See it live on Github Pages:
 
 http://finansync.pl
 
-Built With
+Built With:
 
-Javascript
-CSS3
+#Javascript
 
-Author
+#CSS3
 
+Author:
 Andrzej Jakubczak
