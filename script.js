@@ -12,7 +12,6 @@ const currency = document.getElementById('currency');
 const localStorageTransactions = JSON.parse(localStorage.getItem('transactions'));
 let transactions = localStorage.getItem('transactions') !== null ? localStorageTransactions : [];
 
-// Add transaction
 function addTransaction(e) {
   e.preventDefault();
     if (text.value.trim() === '' || amount.value.trim() === '') {
@@ -33,12 +32,10 @@ function addTransaction(e) {
     }
 }
 
-// Generate random ID
 function generateID() {
   return Math.floor(Math.random() * 100000000);
 }
 
-// Add transactions to DOM list
 function addTransactionDOM(transaction) {
   const sign = transaction.amount < 0 ? '-' : '+';
   const item = document.createElement('li');
@@ -57,7 +54,6 @@ function addTransactionDOM(transaction) {
   list.appendChild(item);
 }
 
-// Update the balance, income and expense
 function updateValues() {
   const amountsPLN = [];
   const amountsEUR = [];
@@ -95,19 +91,16 @@ function updateValues() {
   money_minus_euro.innerText = `${expenseEUR} €`;
 }
 
-// Remove transaction by ID
 function removeTransaction(id) {
   transactions = transactions.filter(transaction => transaction.id !== id);
   updateLocalStorage();
   init();
 }
 
-// Update local storage transactions
 function updateLocalStorage() {
   localStorage.setItem('transactions', JSON.stringify(transactions));
 }
 
-// Init app
 function init() {
   list.innerHTML = '';
   transactions.forEach(addTransactionDOM);
@@ -117,7 +110,6 @@ function init() {
 init();
 form.addEventListener('submit', addTransaction);
 
-// A function that updates the values of income and expenses
 function updateCurrency() {
   const selectedCurrency = currency.value;
   if (selectedCurrency === 'EUR') {
