@@ -38,7 +38,7 @@ List the ready features here:
 
 
 ## Screenshots
-![Example screenshot](./img/FinanSync.png)
+![Example screenshot](./img/finanSync2.png)
 
 
 ## Setup
