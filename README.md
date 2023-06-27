@@ -25,8 +25,8 @@
 
 
 ## Technologies Used
+- HTML & CSS
 - JavaScript
-- CSS 
 
 
 
@@ -38,6 +38,7 @@ List the ready features here:
 
 
 ## Screenshots
+![Example screenshot](./img/finanSync2.png)
 ![Example screenshot](./img/finanSync2.png)
 
 
