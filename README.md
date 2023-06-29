@@ -9,7 +9,6 @@
 - JavaScript
 
 
-
 ## Features
 - Users can enter a total budget amount and save it for tracking their expenses.
 - Users can add expenses, and the application calculates the total expenditure and remaining balance.
@@ -17,6 +16,6 @@
 
 
 ## Screenshots
-![Example screenshot](./img/finanSync2.png)
-![Example screenshot](./img/finanSync2.png)
+![Example screenshot](./img/finansync.jpg)
+![Example screenshot](./img/finansync2.png)
 
