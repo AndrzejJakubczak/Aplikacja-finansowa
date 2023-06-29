@@ -17,5 +17,5 @@
 
 ## Screenshots
 ![Example screenshot](./img/finansync.jpg)
-![Example screenshot](./img/finansync2.png)
+![Example screenshot](./img/finanSync2.png)
 
