@@ -10,9 +10,9 @@
 
 
 ## Features
-- Users can enter a total budget amount and save it for tracking their expenses.
-- Users can add expenses, and the application calculates the total expenditure and remaining balance.
-- The application displays a list of expenses, including the product name and amount. Users can delete items from the list.
+- Users can enter a total budget amount and save it for tracking their expenses
+- Users can add expenses, and the application calculates the total expenditure and remaining balance
+- The application displays a list of expenses, including the product name and amount. Users can delete items from the list
 
 
 ## Screenshots
