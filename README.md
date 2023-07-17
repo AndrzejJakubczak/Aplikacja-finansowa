@@ -1,5 +1,5 @@
 # FinanSync
-> The Budget application is an application that allows the user to track their income and expenses in two currencies (PLN and EUR).
+> The FinanSync application is a web application that allows the user to track their income and expenses in two currencies (PLN and EUR).
 
 #### Live demo [_here_](http://finansync.pl/).
 
